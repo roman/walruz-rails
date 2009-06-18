@@ -1,0 +1,354 @@
+  [4;36;1mSong Create (0.5ms)[0m   [0;1mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES(NULL, '2009-06-04 20:34:33', NULL, NULL, '2009-06-04 20:34:33')[0m
+  [4;35;1mColaboration Create (0.4ms)[0m   [0mINSERT INTO "colaborations" ("name", "updated_at", "created_at") VALUES(NULL, '2009-06-04 20:34:33', '2009-06-04 20:34:33')[0m
+  [4;36;1mSong Create (0.4ms)[0m   [0;1mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES(NULL, '2009-06-04 20:43:35', NULL, NULL, '2009-06-04 20:43:35')[0m
+  [4;35;1mColaboration Create (0.4ms)[0m   [0mINSERT INTO "colaborations" ("name", "updated_at", "created_at") VALUES(NULL, '2009-06-04 20:43:35', '2009-06-04 20:43:35')[0m
+  [4;36;1mBeatle Create (0.4ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('John Lennon', '2009-06-04 20:43:35', '2009-06-04 20:43:35')[0m
+  [4;35;1mBeatle Create (0.3ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Paul McCartney', '2009-06-04 20:43:35', '2009-06-04 20:43:35')[0m
+  [4;36;1mBeatle Create (0.4ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('George Harrison', '2009-06-04 20:43:35', '2009-06-04 20:43:35')[0m
+  [4;35;1mBeatle Create (0.4ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Ringo Starr', '2009-06-04 20:43:35', '2009-06-04 20:43:35')[0m
+  [4;36;1mBeatle Create (0.4ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('John Lennon', '2009-06-04 20:43:35', '2009-06-04 20:43:35')[0m
+  [4;35;1mBeatle Create (0.4ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Paul McCartney', '2009-06-04 20:43:35', '2009-06-04 20:43:35')[0m
+  [4;36;1mBeatle Create (0.4ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('George Harrison', '2009-06-04 20:43:35', '2009-06-04 20:43:35')[0m
+  [4;35;1mBeatle Create (1.3ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Ringo Starr', '2009-06-04 20:43:35', '2009-06-04 20:43:35')[0m
+  [4;36;1mSong Create (0.5ms)[0m   [0;1mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES(NULL, '2009-06-04 20:44:02', NULL, NULL, '2009-06-04 20:44:02')[0m
+  [4;35;1mColaboration Create (0.4ms)[0m   [0mINSERT INTO "colaborations" ("name", "updated_at", "created_at") VALUES(NULL, '2009-06-04 20:44:02', '2009-06-04 20:44:02')[0m
+  [4;36;1mBeatle Create (0.5ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('John Lennon', '2009-06-04 20:44:02', '2009-06-04 20:44:02')[0m
+  [4;35;1mBeatle Create (0.3ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Paul McCartney', '2009-06-04 20:44:02', '2009-06-04 20:44:02')[0m
+  [4;36;1mBeatle Create (0.4ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('George Harrison', '2009-06-04 20:44:02', '2009-06-04 20:44:02')[0m
+  [4;35;1mBeatle Create (0.5ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Ringo Starr', '2009-06-04 20:44:02', '2009-06-04 20:44:02')[0m
+  [4;36;1mColaboration Create (0.3ms)[0m   [0;1mINSERT INTO "colaborations" ("name", "updated_at", "created_at") VALUES(NULL, '2009-06-04 20:44:02', '2009-06-04 20:44:02')[0m
+  [4;35;1mBeatle Create (0.3ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('John Lennon', '2009-06-04 20:44:02', '2009-06-04 20:44:02')[0m
+  [4;36;1mBeatle Create (0.3ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Paul McCartney', '2009-06-04 20:44:02', '2009-06-04 20:44:02')[0m
+  [4;35;1mBeatle Create (0.5ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('George Harrison', '2009-06-04 20:44:02', '2009-06-04 20:44:02')[0m
+  [4;36;1mBeatle Create (0.3ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Ringo Starr', '2009-06-04 20:44:02', '2009-06-04 20:44:02')[0m
+  [4;35;1mColaboration Create (0.5ms)[0m   [0mINSERT INTO "colaborations" ("name", "updated_at", "created_at") VALUES(NULL, '2009-06-04 20:44:02', '2009-06-04 20:44:02')[0m
+  [4;36;1mSong Create (0.5ms)[0m   [0;1mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES(NULL, '2009-06-04 20:44:29', NULL, NULL, '2009-06-04 20:44:29')[0m
+  [4;35;1mColaboration Create (0.5ms)[0m   [0mINSERT INTO "colaborations" ("name", "updated_at", "created_at") VALUES(NULL, '2009-06-04 20:44:29', '2009-06-04 20:44:29')[0m
+  [4;36;1mBeatle Create (0.4ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('John Lennon', '2009-06-04 20:44:29', '2009-06-04 20:44:29')[0m
+  [4;35;1mBeatle Create (0.4ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Paul McCartney', '2009-06-04 20:44:29', '2009-06-04 20:44:29')[0m
+  [4;36;1mBeatle Create (0.4ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('George Harrison', '2009-06-04 20:44:29', '2009-06-04 20:44:29')[0m
+  [4;35;1mBeatle Create (0.4ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Ringo Starr', '2009-06-04 20:44:29', '2009-06-04 20:44:29')[0m
+  [4;36;1mColaboration Create (0.4ms)[0m   [0;1mINSERT INTO "colaborations" ("name", "updated_at", "created_at") VALUES(NULL, '2009-06-04 20:44:29', '2009-06-04 20:44:29')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (1, 1, 1)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (1, 2, 2)[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('A Day In Life', '2009-06-04 20:44:29', 0, 1, '2009-06-04 20:44:29')[0m
+  [4;36;1mSong Create (0.3ms)[0m   [0;1mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('All You Need Is Love', '2009-06-04 20:44:29', 0, 1, '2009-06-04 20:44:29')[0m
+  [4;35;1mSong Create (0.5ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('Yesterday', '2009-06-04 20:44:29', 0, 2, '2009-06-04 20:44:29')[0m
+  [4;36;1mBeatle Create (0.4ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('John Lennon', '2009-06-04 20:44:29', '2009-06-04 20:44:29')[0m
+  [4;35;1mBeatle Create (0.3ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Paul McCartney', '2009-06-04 20:44:29', '2009-06-04 20:44:29')[0m
+  [4;36;1mBeatle Create (0.3ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('George Harrison', '2009-06-04 20:44:29', '2009-06-04 20:44:29')[0m
+  [4;35;1mBeatle Create (0.3ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Ringo Starr', '2009-06-04 20:44:29', '2009-06-04 20:44:29')[0m
+  [4;36;1mColaboration Create (0.3ms)[0m   [0;1mINSERT INTO "colaborations" ("name", "updated_at", "created_at") VALUES(NULL, '2009-06-04 20:44:29', '2009-06-04 20:44:29')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (2, 5, 5)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (2, 6, 6)[0m
+  [4;35;1mSong Create (0.3ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('A Day In Life', '2009-06-04 20:44:29', 0, 2, '2009-06-04 20:44:29')[0m
+  [4;36;1mSong Create (0.4ms)[0m   [0;1mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('All You Need Is Love', '2009-06-04 20:44:29', 0, 5, '2009-06-04 20:44:29')[0m
+  [4;35;1mSong Create (0.5ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('Yesterday', '2009-06-04 20:44:29', 0, 6, '2009-06-04 20:44:29')[0m
+  [4;36;1mSong Create (0.5ms)[0m   [0;1mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES(NULL, '2009-06-04 20:48:33', NULL, NULL, '2009-06-04 20:48:33')[0m
+  [4;35;1mColaboration Create (0.6ms)[0m   [0mINSERT INTO "colaborations" ("name", "updated_at", "created_at") VALUES(NULL, '2009-06-04 20:48:33', '2009-06-04 20:48:33')[0m
+  [4;36;1mBeatle Create (0.4ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('John Lennon', '2009-06-04 20:48:33', '2009-06-04 20:48:33')[0m
+  [4;35;1mBeatle Create (0.4ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Paul McCartney', '2009-06-04 20:48:33', '2009-06-04 20:48:33')[0m
+  [4;36;1mBeatle Create (0.4ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('George Harrison', '2009-06-04 20:48:33', '2009-06-04 20:48:33')[0m
+  [4;35;1mBeatle Create (0.4ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Ringo Starr', '2009-06-04 20:48:33', '2009-06-04 20:48:33')[0m
+  [4;36;1mColaboration Create (0.4ms)[0m   [0;1mINSERT INTO "colaborations" ("name", "updated_at", "created_at") VALUES(NULL, '2009-06-04 20:48:33', '2009-06-04 20:48:33')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (1, 1, 1)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (1, 2, 2)[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('A Day In Life', '2009-06-04 20:48:33', 0, 1, '2009-06-04 20:48:33')[0m
+  [4;36;1mSong Create (0.5ms)[0m   [0;1mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('All You Need Is Love', '2009-06-04 20:48:33', 0, 1, '2009-06-04 20:48:33')[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('Yesterday', '2009-06-04 20:48:33', 0, 2, '2009-06-04 20:48:33')[0m
+  [4;36;1mBeatle Create (0.4ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('John Lennon', '2009-06-04 20:48:33', '2009-06-04 20:48:33')[0m
+  [4;35;1mBeatle Create (0.3ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Paul McCartney', '2009-06-04 20:48:33', '2009-06-04 20:48:33')[0m
+  [4;36;1mBeatle Create (0.4ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('George Harrison', '2009-06-04 20:48:33', '2009-06-04 20:48:33')[0m
+  [4;35;1mBeatle Create (0.3ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Ringo Starr', '2009-06-04 20:48:33', '2009-06-04 20:48:33')[0m
+  [4;36;1mColaboration Create (0.4ms)[0m   [0;1mINSERT INTO "colaborations" ("name", "updated_at", "created_at") VALUES(NULL, '2009-06-04 20:48:33', '2009-06-04 20:48:33')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (2, 5, 5)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (2, 6, 6)[0m
+  [4;35;1mSong Create (0.3ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('A Day In Life', '2009-06-04 20:48:33', 0, 2, '2009-06-04 20:48:33')[0m
+  [4;36;1mSong Create (0.5ms)[0m   [0;1mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('All You Need Is Love', '2009-06-04 20:48:33', 0, 5, '2009-06-04 20:48:33')[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('Yesterday', '2009-06-04 20:48:33', 0, 6, '2009-06-04 20:48:33')[0m
+  [4;36;1mSong Create (0.5ms)[0m   [0;1mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES(NULL, '2009-06-04 20:48:49', NULL, NULL, '2009-06-04 20:48:49')[0m
+  [4;35;1mColaboration Create (0.4ms)[0m   [0mINSERT INTO "colaborations" ("name", "updated_at", "created_at") VALUES(NULL, '2009-06-04 20:48:49', '2009-06-04 20:48:49')[0m
+  [4;36;1mBeatle Create (0.4ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('John Lennon', '2009-06-04 20:48:49', '2009-06-04 20:48:49')[0m
+  [4;35;1mBeatle Create (0.4ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Paul McCartney', '2009-06-04 20:48:49', '2009-06-04 20:48:49')[0m
+  [4;36;1mBeatle Create (0.4ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('George Harrison', '2009-06-04 20:48:49', '2009-06-04 20:48:49')[0m
+  [4;35;1mBeatle Create (0.4ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Ringo Starr', '2009-06-04 20:48:49', '2009-06-04 20:48:49')[0m
+  [4;36;1mColaboration Create (0.5ms)[0m   [0;1mINSERT INTO "colaborations" ("name", "updated_at", "created_at") VALUES(NULL, '2009-06-04 20:48:49', '2009-06-04 20:48:49')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (1, 1, 1)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (1, 2, 2)[0m
+  [4;35;1mSong Create (0.5ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('A Day In Life', '2009-06-04 20:48:49', 0, 1, '2009-06-04 20:48:49')[0m
+  [4;36;1mSong Create (0.7ms)[0m   [0;1mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('All You Need Is Love', '2009-06-04 20:48:49', 0, 1, '2009-06-04 20:48:49')[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('Yesterday', '2009-06-04 20:48:49', 0, 2, '2009-06-04 20:48:49')[0m
+  [4;36;1mBeatle Create (0.4ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('John Lennon', '2009-06-04 20:48:49', '2009-06-04 20:48:49')[0m
+  [4;35;1mBeatle Create (0.4ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Paul McCartney', '2009-06-04 20:48:49', '2009-06-04 20:48:49')[0m
+  [4;36;1mBeatle Create (0.3ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('George Harrison', '2009-06-04 20:48:49', '2009-06-04 20:48:49')[0m
+  [4;35;1mBeatle Create (0.4ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Ringo Starr', '2009-06-04 20:48:49', '2009-06-04 20:48:49')[0m
+  [4;36;1mColaboration Create (0.3ms)[0m   [0;1mINSERT INTO "colaborations" ("name", "updated_at", "created_at") VALUES(NULL, '2009-06-04 20:48:49', '2009-06-04 20:48:49')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (2, 5, 5)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (2, 6, 6)[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('A Day In Life', '2009-06-04 20:48:49', 0, 2, '2009-06-04 20:48:49')[0m
+  [4;36;1mSong Create (0.5ms)[0m   [0;1mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('All You Need Is Love', '2009-06-04 20:48:49', 0, 5, '2009-06-04 20:48:49')[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('Yesterday', '2009-06-04 20:48:49', 0, 6, '2009-06-04 20:48:49')[0m
+  [4;36;1mSong Create (0.5ms)[0m   [0;1mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES(NULL, '2009-06-04 20:49:21', NULL, NULL, '2009-06-04 20:49:21')[0m
+  [4;35;1mColaboration Create (0.4ms)[0m   [0mINSERT INTO "colaborations" ("name", "updated_at", "created_at") VALUES(NULL, '2009-06-04 20:49:21', '2009-06-04 20:49:21')[0m
+  [4;36;1mBeatle Create (0.4ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('John Lennon', '2009-06-04 20:49:21', '2009-06-04 20:49:21')[0m
+  [4;35;1mBeatle Create (0.4ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Paul McCartney', '2009-06-04 20:49:21', '2009-06-04 20:49:21')[0m
+  [4;36;1mBeatle Create (0.3ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('George Harrison', '2009-06-04 20:49:21', '2009-06-04 20:49:21')[0m
+  [4;35;1mBeatle Create (0.4ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Ringo Starr', '2009-06-04 20:49:21', '2009-06-04 20:49:21')[0m
+  [4;36;1mColaboration Create (0.3ms)[0m   [0;1mINSERT INTO "colaborations" ("name", "updated_at", "created_at") VALUES(NULL, '2009-06-04 20:49:21', '2009-06-04 20:49:21')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (1, 1, 1)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (1, 2, 2)[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('A Day In Life', '2009-06-04 20:49:21', 0, 1, '2009-06-04 20:49:21')[0m
+  [4;36;1mSong Create (0.5ms)[0m   [0;1mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('All You Need Is Love', '2009-06-04 20:49:21', 0, 1, '2009-06-04 20:49:21')[0m
+  [4;35;1mSong Create (0.3ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('Yesterday', '2009-06-04 20:49:21', 0, 2, '2009-06-04 20:49:21')[0m
+  [4;36;1mBeatle Create (0.4ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('John Lennon', '2009-06-04 20:49:21', '2009-06-04 20:49:21')[0m
+  [4;35;1mBeatle Create (0.4ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Paul McCartney', '2009-06-04 20:49:21', '2009-06-04 20:49:21')[0m
+  [4;36;1mBeatle Create (0.3ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('George Harrison', '2009-06-04 20:49:21', '2009-06-04 20:49:21')[0m
+  [4;35;1mBeatle Create (0.4ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Ringo Starr', '2009-06-04 20:49:21', '2009-06-04 20:49:21')[0m
+  [4;36;1mColaboration Create (0.3ms)[0m   [0;1mINSERT INTO "colaborations" ("name", "updated_at", "created_at") VALUES(NULL, '2009-06-04 20:49:21', '2009-06-04 20:49:21')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (2, 5, 5)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (2, 6, 6)[0m
+  [4;35;1mSong Create (0.6ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('A Day In Life', '2009-06-04 20:49:21', 0, 2, '2009-06-04 20:49:21')[0m
+  [4;36;1mSong Create (0.4ms)[0m   [0;1mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('All You Need Is Love', '2009-06-04 20:49:21', 0, 5, '2009-06-04 20:49:21')[0m
+  [4;35;1mSong Create (0.5ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('Yesterday', '2009-06-04 20:49:21', 0, 6, '2009-06-04 20:49:21')[0m
+  [4;36;1mSong Create (0.5ms)[0m   [0;1mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES(NULL, '2009-06-04 20:50:00', NULL, NULL, '2009-06-04 20:50:00')[0m
+  [4;35;1mColaboration Create (0.4ms)[0m   [0mINSERT INTO "colaborations" ("name", "updated_at", "created_at") VALUES(NULL, '2009-06-04 20:50:00', '2009-06-04 20:50:00')[0m
+  [4;36;1mBeatle Create (0.4ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('John Lennon', '2009-06-04 20:50:00', '2009-06-04 20:50:00')[0m
+  [4;35;1mBeatle Create (0.3ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Paul McCartney', '2009-06-04 20:50:00', '2009-06-04 20:50:00')[0m
+  [4;36;1mBeatle Create (0.4ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('George Harrison', '2009-06-04 20:50:00', '2009-06-04 20:50:00')[0m
+  [4;35;1mBeatle Create (0.4ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Ringo Starr', '2009-06-04 20:50:00', '2009-06-04 20:50:00')[0m
+  [4;36;1mColaboration Create (0.3ms)[0m   [0;1mINSERT INTO "colaborations" ("name", "updated_at", "created_at") VALUES(NULL, '2009-06-04 20:50:00', '2009-06-04 20:50:00')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (1, 1, 1)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (1, 2, 2)[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('A Day In Life', '2009-06-04 20:50:00', 0, 1, '2009-06-04 20:50:00')[0m
+  [4;36;1mSong Create (0.5ms)[0m   [0;1mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('All You Need Is Love', '2009-06-04 20:50:00', 0, 1, '2009-06-04 20:50:00')[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('Yesterday', '2009-06-04 20:50:00', 0, 2, '2009-06-04 20:50:00')[0m
+  [4;36;1mBeatle Create (0.4ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('John Lennon', '2009-06-04 20:50:00', '2009-06-04 20:50:00')[0m
+  [4;35;1mBeatle Create (0.3ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Paul McCartney', '2009-06-04 20:50:00', '2009-06-04 20:50:00')[0m
+  [4;36;1mBeatle Create (0.5ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('George Harrison', '2009-06-04 20:50:00', '2009-06-04 20:50:00')[0m
+  [4;35;1mBeatle Create (0.3ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Ringo Starr', '2009-06-04 20:50:00', '2009-06-04 20:50:00')[0m
+  [4;36;1mColaboration Create (0.3ms)[0m   [0;1mINSERT INTO "colaborations" ("name", "updated_at", "created_at") VALUES(NULL, '2009-06-04 20:50:00', '2009-06-04 20:50:00')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (2, 5, 5)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (2, 6, 6)[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('A Day In Life', '2009-06-04 20:50:00', 0, 2, '2009-06-04 20:50:00')[0m
+  [4;36;1mSong Create (0.4ms)[0m   [0;1mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('All You Need Is Love', '2009-06-04 20:50:00', 0, 5, '2009-06-04 20:50:00')[0m
+  [4;35;1mSong Create (0.5ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('Yesterday', '2009-06-04 20:50:00', 0, 6, '2009-06-04 20:50:00')[0m
+  [4;36;1mBeatle Create (0.5ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('John Lennon', '2009-06-04 20:50:35', '2009-06-04 20:50:35')[0m
+  [4;35;1mBeatle Create (0.3ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Paul McCartney', '2009-06-04 20:50:35', '2009-06-04 20:50:35')[0m
+  [4;36;1mBeatle Create (0.4ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('George Harrison', '2009-06-04 20:50:35', '2009-06-04 20:50:35')[0m
+  [4;35;1mBeatle Create (0.6ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Ringo Starr', '2009-06-04 20:50:35', '2009-06-04 20:50:35')[0m
+  [4;36;1mColaboration Create (0.4ms)[0m   [0;1mINSERT INTO "colaborations" ("name", "updated_at", "created_at") VALUES(NULL, '2009-06-04 20:50:35', '2009-06-04 20:50:35')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (1, 1, 1)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (1, 2, 2)[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('A Day In Life', '2009-06-04 20:50:35', 0, 1, '2009-06-04 20:50:35')[0m
+  [4;36;1mSong Create (0.4ms)[0m   [0;1mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('All You Need Is Love', '2009-06-04 20:50:35', 0, 1, '2009-06-04 20:50:35')[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('Yesterday', '2009-06-04 20:50:35', 0, 2, '2009-06-04 20:50:35')[0m
+  [4;36;1mBeatle Create (0.4ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('John Lennon', '2009-06-04 20:50:35', '2009-06-04 20:50:35')[0m
+  [4;35;1mBeatle Create (0.3ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Paul McCartney', '2009-06-04 20:50:35', '2009-06-04 20:50:35')[0m
+  [4;36;1mBeatle Create (0.4ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('George Harrison', '2009-06-04 20:50:35', '2009-06-04 20:50:35')[0m
+  [4;35;1mBeatle Create (0.4ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Ringo Starr', '2009-06-04 20:50:35', '2009-06-04 20:50:35')[0m
+  [4;36;1mColaboration Create (0.3ms)[0m   [0;1mINSERT INTO "colaborations" ("name", "updated_at", "created_at") VALUES(NULL, '2009-06-04 20:50:35', '2009-06-04 20:50:35')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (2, 5, 5)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (2, 6, 6)[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('A Day In Life', '2009-06-04 20:50:35', 0, 2, '2009-06-04 20:50:35')[0m
+  [4;36;1mSong Create (0.4ms)[0m   [0;1mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('All You Need Is Love', '2009-06-04 20:50:35', 0, 5, '2009-06-04 20:50:35')[0m
+  [4;35;1mSong Create (0.3ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('Yesterday', '2009-06-04 20:50:35', 0, 6, '2009-06-04 20:50:35')[0m
+  [4;36;1mBeatle Create (0.5ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('John Lennon', '2009-06-04 20:54:00', '2009-06-04 20:54:00')[0m
+  [4;35;1mBeatle Create (0.3ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Paul McCartney', '2009-06-04 20:54:00', '2009-06-04 20:54:00')[0m
+  [4;36;1mBeatle Create (0.3ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('George Harrison', '2009-06-04 20:54:00', '2009-06-04 20:54:00')[0m
+  [4;35;1mBeatle Create (0.5ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Ringo Starr', '2009-06-04 20:54:00', '2009-06-04 20:54:00')[0m
+  [4;36;1mColaboration Create (0.4ms)[0m   [0;1mINSERT INTO "colaborations" ("name", "updated_at", "created_at") VALUES(NULL, '2009-06-04 20:54:00', '2009-06-04 20:54:00')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (1, 1, 1)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (1, 2, 2)[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('A Day In Life', '2009-06-04 20:54:00', 0, 1, '2009-06-04 20:54:00')[0m
+  [4;36;1mSong Create (0.4ms)[0m   [0;1mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('All You Need Is Love', '2009-06-04 20:54:00', 0, 1, '2009-06-04 20:54:00')[0m
+  [4;35;1mSong Create (0.3ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('Yesterday', '2009-06-04 20:54:00', 0, 2, '2009-06-04 20:54:00')[0m
+  [4;36;1mBeatle Create (0.4ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('John Lennon', '2009-06-04 20:54:00', '2009-06-04 20:54:00')[0m
+  [4;35;1mBeatle Create (0.4ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Paul McCartney', '2009-06-04 20:54:00', '2009-06-04 20:54:00')[0m
+  [4;36;1mBeatle Create (0.4ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('George Harrison', '2009-06-04 20:54:00', '2009-06-04 20:54:00')[0m
+  [4;35;1mBeatle Create (0.3ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Ringo Starr', '2009-06-04 20:54:00', '2009-06-04 20:54:00')[0m
+  [4;36;1mColaboration Create (0.4ms)[0m   [0;1mINSERT INTO "colaborations" ("name", "updated_at", "created_at") VALUES(NULL, '2009-06-04 20:54:00', '2009-06-04 20:54:00')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (2, 5, 5)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (2, 6, 6)[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('A Day In Life', '2009-06-04 20:54:00', 0, 2, '2009-06-04 20:54:00')[0m
+  [4;36;1mSong Create (0.4ms)[0m   [0;1mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('All You Need Is Love', '2009-06-04 20:54:01', 0, 5, '2009-06-04 20:54:01')[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('Yesterday', '2009-06-04 20:54:01', 0, 6, '2009-06-04 20:54:01')[0m
+  [4;36;1mBeatle Create (0.5ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('John Lennon', '2009-06-04 20:55:26', '2009-06-04 20:55:26')[0m
+  [4;35;1mBeatle Create (0.4ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Paul McCartney', '2009-06-04 20:55:26', '2009-06-04 20:55:26')[0m
+  [4;36;1mBeatle Create (0.4ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('George Harrison', '2009-06-04 20:55:26', '2009-06-04 20:55:26')[0m
+  [4;35;1mBeatle Create (0.4ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Ringo Starr', '2009-06-04 20:55:26', '2009-06-04 20:55:26')[0m
+  [4;36;1mColaboration Create (0.4ms)[0m   [0;1mINSERT INTO "colaborations" ("name", "updated_at", "created_at") VALUES(NULL, '2009-06-04 20:55:26', '2009-06-04 20:55:26')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (1, 1, 1)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (1, 2, 2)[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('A Day In Life', '2009-06-04 20:55:26', 0, 1, '2009-06-04 20:55:26')[0m
+  [4;36;1mSong Create (0.4ms)[0m   [0;1mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('All You Need Is Love', '2009-06-04 20:55:26', 0, 1, '2009-06-04 20:55:26')[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('Yesterday', '2009-06-04 20:55:26', 0, 2, '2009-06-04 20:55:26')[0m
+  [4;36;1mBeatle Create (0.4ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('John Lennon', '2009-06-04 20:55:26', '2009-06-04 20:55:26')[0m
+  [4;35;1mBeatle Create (0.3ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Paul McCartney', '2009-06-04 20:55:26', '2009-06-04 20:55:26')[0m
+  [4;36;1mBeatle Create (0.4ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('George Harrison', '2009-06-04 20:55:26', '2009-06-04 20:55:26')[0m
+  [4;35;1mBeatle Create (0.4ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Ringo Starr', '2009-06-04 20:55:26', '2009-06-04 20:55:26')[0m
+  [4;36;1mColaboration Create (0.4ms)[0m   [0;1mINSERT INTO "colaborations" ("name", "updated_at", "created_at") VALUES(NULL, '2009-06-04 20:55:26', '2009-06-04 20:55:26')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (2, 5, 5)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (2, 6, 6)[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('A Day In Life', '2009-06-04 20:55:26', 0, 2, '2009-06-04 20:55:26')[0m
+  [4;36;1mSong Create (0.3ms)[0m   [0;1mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('All You Need Is Love', '2009-06-04 20:55:26', 0, 5, '2009-06-04 20:55:26')[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('Yesterday', '2009-06-04 20:55:26', 0, 6, '2009-06-04 20:55:26')[0m
+  [4;36;1mBeatle Create (0.5ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('John Lennon', '2009-06-04 20:56:20', '2009-06-04 20:56:20')[0m
+  [4;35;1mBeatle Create (0.3ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Paul McCartney', '2009-06-04 20:56:20', '2009-06-04 20:56:20')[0m
+  [4;36;1mBeatle Create (0.4ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('George Harrison', '2009-06-04 20:56:20', '2009-06-04 20:56:20')[0m
+  [4;35;1mBeatle Create (0.3ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Ringo Starr', '2009-06-04 20:56:20', '2009-06-04 20:56:20')[0m
+  [4;36;1mColaboration Create (0.4ms)[0m   [0;1mINSERT INTO "colaborations" ("name", "updated_at", "created_at") VALUES(NULL, '2009-06-04 20:56:20', '2009-06-04 20:56:20')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (1, 1, 1)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (1, 2, 2)[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('A Day In Life', '2009-06-04 20:56:20', 0, 1, '2009-06-04 20:56:20')[0m
+  [4;36;1mSong Create (0.4ms)[0m   [0;1mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('All You Need Is Love', '2009-06-04 20:56:20', 0, 1, '2009-06-04 20:56:20')[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('Yesterday', '2009-06-04 20:56:20', 0, 2, '2009-06-04 20:56:20')[0m
+  [4;36;1mBeatle Create (0.4ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('John Lennon', '2009-06-04 20:56:20', '2009-06-04 20:56:20')[0m
+  [4;35;1mBeatle Create (0.4ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Paul McCartney', '2009-06-04 20:56:20', '2009-06-04 20:56:20')[0m
+  [4;36;1mBeatle Create (0.3ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('George Harrison', '2009-06-04 20:56:20', '2009-06-04 20:56:20')[0m
+  [4;35;1mBeatle Create (0.4ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Ringo Starr', '2009-06-04 20:56:20', '2009-06-04 20:56:20')[0m
+  [4;36;1mColaboration Create (0.3ms)[0m   [0;1mINSERT INTO "colaborations" ("name", "updated_at", "created_at") VALUES(NULL, '2009-06-04 20:56:20', '2009-06-04 20:56:20')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (2, 5, 5)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (2, 6, 6)[0m
+  [4;35;1mSong Create (0.3ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('A Day In Life', '2009-06-04 20:56:20', 0, 2, '2009-06-04 20:56:20')[0m
+  [4;36;1mSong Create (0.4ms)[0m   [0;1mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('All You Need Is Love', '2009-06-04 20:56:20', 0, 5, '2009-06-04 20:56:20')[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('Yesterday', '2009-06-04 20:56:20', 0, 6, '2009-06-04 20:56:20')[0m
+  [4;36;1mBeatle Create (0.5ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('John Lennon', '2009-06-04 20:59:08', '2009-06-04 20:59:08')[0m
+  [4;35;1mBeatle Create (0.3ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Paul McCartney', '2009-06-04 20:59:08', '2009-06-04 20:59:08')[0m
+  [4;36;1mBeatle Create (0.3ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('George Harrison', '2009-06-04 20:59:08', '2009-06-04 20:59:08')[0m
+  [4;35;1mBeatle Create (0.4ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Ringo Starr', '2009-06-04 20:59:08', '2009-06-04 20:59:08')[0m
+  [4;36;1mColaboration Create (0.4ms)[0m   [0;1mINSERT INTO "colaborations" ("name", "updated_at", "created_at") VALUES(NULL, '2009-06-04 20:59:08', '2009-06-04 20:59:08')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (1, 1, 1)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (1, 2, 2)[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('A Day In Life', '2009-06-04 20:59:08', 0, 1, '2009-06-04 20:59:08')[0m
+  [4;36;1mSong Create (0.3ms)[0m   [0;1mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('All You Need Is Love', '2009-06-04 20:59:08', 0, 1, '2009-06-04 20:59:08')[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('Yesterday', '2009-06-04 20:59:08', 0, 2, '2009-06-04 20:59:08')[0m
+  [4;36;1mBeatle Create (0.4ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('John Lennon', '2009-06-04 20:59:08', '2009-06-04 20:59:08')[0m
+  [4;35;1mBeatle Create (0.3ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Paul McCartney', '2009-06-04 20:59:08', '2009-06-04 20:59:08')[0m
+  [4;36;1mBeatle Create (0.4ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('George Harrison', '2009-06-04 20:59:08', '2009-06-04 20:59:08')[0m
+  [4;35;1mBeatle Create (0.5ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Ringo Starr', '2009-06-04 20:59:08', '2009-06-04 20:59:08')[0m
+  [4;36;1mColaboration Create (0.4ms)[0m   [0;1mINSERT INTO "colaborations" ("name", "updated_at", "created_at") VALUES(NULL, '2009-06-04 20:59:08', '2009-06-04 20:59:08')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (2, 5, 5)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (2, 6, 6)[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('A Day In Life', '2009-06-04 20:59:08', 0, 2, '2009-06-04 20:59:08')[0m
+  [4;36;1mSong Create (0.3ms)[0m   [0;1mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('All You Need Is Love', '2009-06-04 20:59:08', 0, 5, '2009-06-04 20:59:08')[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('Yesterday', '2009-06-04 20:59:08', 0, 6, '2009-06-04 20:59:08')[0m
+  [4;36;1mBeatle Create (0.5ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('John Lennon', '2009-06-04 21:01:34', '2009-06-04 21:01:34')[0m
+  [4;35;1mBeatle Create (0.3ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Paul McCartney', '2009-06-04 21:01:34', '2009-06-04 21:01:34')[0m
+  [4;36;1mBeatle Create (0.3ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('George Harrison', '2009-06-04 21:01:34', '2009-06-04 21:01:34')[0m
+  [4;35;1mBeatle Create (0.4ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Ringo Starr', '2009-06-04 21:01:34', '2009-06-04 21:01:34')[0m
+  [4;36;1mColaboration Create (0.4ms)[0m   [0;1mINSERT INTO "colaborations" ("name", "updated_at", "created_at") VALUES(NULL, '2009-06-04 21:01:34', '2009-06-04 21:01:34')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (1, 1, 1)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (1, 2, 2)[0m
+  [4;35;1mSong Create (0.5ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('A Day In Life', '2009-06-04 21:01:34', 0, 1, '2009-06-04 21:01:34')[0m
+  [4;36;1mSong Create (0.4ms)[0m   [0;1mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('All You Need Is Love', '2009-06-04 21:01:34', 0, 1, '2009-06-04 21:01:34')[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('Yesterday', '2009-06-04 21:01:34', 0, 2, '2009-06-04 21:01:34')[0m
+  [4;36;1mBeatle Create (0.4ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('John Lennon', '2009-06-04 21:01:34', '2009-06-04 21:01:34')[0m
+  [4;35;1mBeatle Create (0.3ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Paul McCartney', '2009-06-04 21:01:34', '2009-06-04 21:01:34')[0m
+  [4;36;1mBeatle Create (0.4ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('George Harrison', '2009-06-04 21:01:34', '2009-06-04 21:01:34')[0m
+  [4;35;1mBeatle Create (0.3ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Ringo Starr', '2009-06-04 21:01:34', '2009-06-04 21:01:34')[0m
+  [4;36;1mColaboration Create (0.3ms)[0m   [0;1mINSERT INTO "colaborations" ("name", "updated_at", "created_at") VALUES(NULL, '2009-06-04 21:01:34', '2009-06-04 21:01:34')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (2, 5, 5)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (2, 6, 6)[0m
+  [4;35;1mSong Create (0.5ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('A Day In Life', '2009-06-04 21:01:34', 0, 2, '2009-06-04 21:01:34')[0m
+  [4;36;1mSong Create (0.4ms)[0m   [0;1mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('All You Need Is Love', '2009-06-04 21:01:34', 0, 5, '2009-06-04 21:01:34')[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('Yesterday', '2009-06-04 21:01:34', 0, 6, '2009-06-04 21:01:34')[0m
+  [4;36;1mBeatle Create (0.5ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('John Lennon', '2009-06-04 21:02:06', '2009-06-04 21:02:06')[0m
+  [4;35;1mBeatle Create (0.4ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Paul McCartney', '2009-06-04 21:02:06', '2009-06-04 21:02:06')[0m
+  [4;36;1mBeatle Create (0.4ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('George Harrison', '2009-06-04 21:02:06', '2009-06-04 21:02:06')[0m
+  [4;35;1mBeatle Create (0.4ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Ringo Starr', '2009-06-04 21:02:06', '2009-06-04 21:02:06')[0m
+  [4;36;1mColaboration Create (0.4ms)[0m   [0;1mINSERT INTO "colaborations" ("name", "updated_at", "created_at") VALUES(NULL, '2009-06-04 21:02:06', '2009-06-04 21:02:06')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (1, 1, 1)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (1, 2, 2)[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('A Day In Life', '2009-06-04 21:02:06', 0, 1, '2009-06-04 21:02:06')[0m
+  [4;36;1mSong Create (0.4ms)[0m   [0;1mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('All You Need Is Love', '2009-06-04 21:02:06', 0, 1, '2009-06-04 21:02:06')[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('Yesterday', '2009-06-04 21:02:06', 0, 2, '2009-06-04 21:02:06')[0m
+  [4;36;1mBeatle Create (0.5ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('John Lennon', '2009-06-04 21:02:06', '2009-06-04 21:02:06')[0m
+  [4;35;1mBeatle Create (0.3ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Paul McCartney', '2009-06-04 21:02:06', '2009-06-04 21:02:06')[0m
+  [4;36;1mBeatle Create (0.5ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('George Harrison', '2009-06-04 21:02:06', '2009-06-04 21:02:06')[0m
+  [4;35;1mBeatle Create (0.4ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Ringo Starr', '2009-06-04 21:02:06', '2009-06-04 21:02:06')[0m
+  [4;36;1mColaboration Create (0.4ms)[0m   [0;1mINSERT INTO "colaborations" ("name", "updated_at", "created_at") VALUES(NULL, '2009-06-04 21:02:06', '2009-06-04 21:02:06')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (2, 5, 5)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (2, 6, 6)[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('A Day In Life', '2009-06-04 21:02:06', 0, 2, '2009-06-04 21:02:06')[0m
+  [4;36;1mSong Create (0.3ms)[0m   [0;1mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('All You Need Is Love', '2009-06-04 21:02:06', 0, 5, '2009-06-04 21:02:06')[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('Yesterday', '2009-06-04 21:02:06', 0, 6, '2009-06-04 21:02:06')[0m
+  [4;36;1mBeatle Create (0.5ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('John Lennon', '2009-06-04 21:04:31', '2009-06-04 21:04:31')[0m
+  [4;35;1mBeatle Create (0.4ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Paul McCartney', '2009-06-04 21:04:31', '2009-06-04 21:04:31')[0m
+  [4;36;1mBeatle Create (0.5ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('George Harrison', '2009-06-04 21:04:31', '2009-06-04 21:04:31')[0m
+  [4;35;1mBeatle Create (0.4ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Ringo Starr', '2009-06-04 21:04:31', '2009-06-04 21:04:31')[0m
+  [4;36;1mColaboration Create (0.4ms)[0m   [0;1mINSERT INTO "colaborations" ("name", "updated_at", "created_at") VALUES(NULL, '2009-06-04 21:04:31', '2009-06-04 21:04:31')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (1, 1, 1)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (1, 2, 2)[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('A Day In Life', '2009-06-04 21:04:31', 0, 1, '2009-06-04 21:04:31')[0m
+  [4;36;1mSong Create (0.4ms)[0m   [0;1mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('All You Need Is Love', '2009-06-04 21:04:31', 0, 1, '2009-06-04 21:04:31')[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('Yesterday', '2009-06-04 21:04:31', 0, 2, '2009-06-04 21:04:31')[0m
+  [4;36;1mBeatle Create (0.4ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('John Lennon', '2009-06-04 21:04:31', '2009-06-04 21:04:31')[0m
+  [4;35;1mBeatle Create (0.3ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Paul McCartney', '2009-06-04 21:04:31', '2009-06-04 21:04:31')[0m
+  [4;36;1mBeatle Create (0.3ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('George Harrison', '2009-06-04 21:04:31', '2009-06-04 21:04:31')[0m
+  [4;35;1mBeatle Create (0.5ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Ringo Starr', '2009-06-04 21:04:31', '2009-06-04 21:04:31')[0m
+  [4;36;1mColaboration Create (0.4ms)[0m   [0;1mINSERT INTO "colaborations" ("name", "updated_at", "created_at") VALUES(NULL, '2009-06-04 21:04:31', '2009-06-04 21:04:31')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (2, 5, 5)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (2, 6, 6)[0m
+  [4;35;1mSong Create (0.3ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('A Day In Life', '2009-06-04 21:04:31', 0, 2, '2009-06-04 21:04:31')[0m
+  [4;36;1mSong Create (0.4ms)[0m   [0;1mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('All You Need Is Love', '2009-06-04 21:04:31', 0, 5, '2009-06-04 21:04:31')[0m
+  [4;35;1mSong Create (0.6ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('Yesterday', '2009-06-04 21:04:31', 0, 6, '2009-06-04 21:04:31')[0m
+  [4;36;1mBeatle Create (0.5ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('John Lennon', '2009-06-04 22:11:33', '2009-06-04 22:11:33')[0m
+  [4;35;1mBeatle Create (0.3ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Paul McCartney', '2009-06-04 22:11:33', '2009-06-04 22:11:33')[0m
+  [4;36;1mBeatle Create (0.4ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('George Harrison', '2009-06-04 22:11:33', '2009-06-04 22:11:33')[0m
+  [4;35;1mBeatle Create (0.6ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Ringo Starr', '2009-06-04 22:11:33', '2009-06-04 22:11:33')[0m
+  [4;36;1mColaboration Create (0.4ms)[0m   [0;1mINSERT INTO "colaborations" ("name", "updated_at", "created_at") VALUES(NULL, '2009-06-04 22:11:33', '2009-06-04 22:11:33')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (1, 1, 1)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (1, 2, 2)[0m
+  [4;35;1mSong Create (0.5ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('A Day In Life', '2009-06-04 22:11:33', 0, 1, '2009-06-04 22:11:33')[0m
+  [4;36;1mSong Create (0.4ms)[0m   [0;1mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('All You Need Is Love', '2009-06-04 22:11:33', 0, 1, '2009-06-04 22:11:33')[0m
+  [4;35;1mSong Create (0.3ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('Yesterday', '2009-06-04 22:11:33', 0, 2, '2009-06-04 22:11:33')[0m
+  [4;36;1mBeatle Create (0.4ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('John Lennon', '2009-06-04 22:11:33', '2009-06-04 22:11:33')[0m
+  [4;35;1mBeatle Create (0.3ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Paul McCartney', '2009-06-04 22:11:33', '2009-06-04 22:11:33')[0m
+  [4;36;1mBeatle Create (0.3ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('George Harrison', '2009-06-04 22:11:33', '2009-06-04 22:11:33')[0m
+  [4;35;1mBeatle Create (0.4ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Ringo Starr', '2009-06-04 22:11:33', '2009-06-04 22:11:33')[0m
+  [4;36;1mColaboration Create (0.4ms)[0m   [0;1mINSERT INTO "colaborations" ("name", "updated_at", "created_at") VALUES(NULL, '2009-06-04 22:11:33', '2009-06-04 22:11:33')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (2, 5, 5)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (2, 6, 6)[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('A Day In Life', '2009-06-04 22:11:33', 0, 2, '2009-06-04 22:11:33')[0m
+  [4;36;1mSong Create (0.3ms)[0m   [0;1mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('All You Need Is Love', '2009-06-04 22:11:33', 0, 5, '2009-06-04 22:11:33')[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('Yesterday', '2009-06-04 22:11:33', 0, 6, '2009-06-04 22:11:33')[0m
+  [4;36;1mBeatle Create (0.5ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('John Lennon', '2009-06-06 01:48:11', '2009-06-06 01:48:11')[0m
+  [4;35;1mBeatle Create (0.4ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Paul McCartney', '2009-06-06 01:48:11', '2009-06-06 01:48:11')[0m
+  [4;36;1mBeatle Create (0.4ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('George Harrison', '2009-06-06 01:48:11', '2009-06-06 01:48:11')[0m
+  [4;35;1mBeatle Create (0.3ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Ringo Starr', '2009-06-06 01:48:11', '2009-06-06 01:48:11')[0m
+  [4;36;1mColaboration Create (0.5ms)[0m   [0;1mINSERT INTO "colaborations" ("name", "updated_at", "created_at") VALUES(NULL, '2009-06-06 01:48:11', '2009-06-06 01:48:11')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (1, 1, 1)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (1, 2, 2)[0m
+  [4;35;1mSong Create (0.5ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('A Day In Life', '2009-06-06 01:48:11', 0, 1, '2009-06-06 01:48:11')[0m
+  [4;36;1mSong Create (0.4ms)[0m   [0;1mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('All You Need Is Love', '2009-06-06 01:48:11', 0, 1, '2009-06-06 01:48:11')[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('Yesterday', '2009-06-06 01:48:11', 0, 2, '2009-06-06 01:48:11')[0m
+  [4;36;1mBeatle Create (0.4ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('John Lennon', '2009-06-06 01:48:11', '2009-06-06 01:48:11')[0m
+  [4;35;1mBeatle Create (0.4ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Paul McCartney', '2009-06-06 01:48:11', '2009-06-06 01:48:11')[0m
+  [4;36;1mBeatle Create (0.4ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('George Harrison', '2009-06-06 01:48:11', '2009-06-06 01:48:11')[0m
+  [4;35;1mBeatle Create (0.3ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Ringo Starr', '2009-06-06 01:48:11', '2009-06-06 01:48:11')[0m
+  [4;36;1mColaboration Create (0.4ms)[0m   [0;1mINSERT INTO "colaborations" ("name", "updated_at", "created_at") VALUES(NULL, '2009-06-06 01:48:11', '2009-06-06 01:48:11')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (2, 5, 5)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (2, 6, 6)[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('A Day In Life', '2009-06-06 01:48:11', 0, 2, '2009-06-06 01:48:11')[0m
+  [4;36;1mSong Create (0.4ms)[0m   [0;1mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('All You Need Is Love', '2009-06-06 01:48:11', 0, 5, '2009-06-06 01:48:11')[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('Yesterday', '2009-06-06 01:48:11', 0, 6, '2009-06-06 01:48:11')[0m
+  [4;36;1mBeatle Create (0.5ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('John Lennon', '2009-06-06 01:49:05', '2009-06-06 01:49:05')[0m
+  [4;35;1mBeatle Create (0.4ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Paul McCartney', '2009-06-06 01:49:05', '2009-06-06 01:49:05')[0m
+  [4;36;1mBeatle Create (0.3ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('George Harrison', '2009-06-06 01:49:05', '2009-06-06 01:49:05')[0m
+  [4;35;1mBeatle Create (0.3ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Ringo Starr', '2009-06-06 01:49:05', '2009-06-06 01:49:05')[0m
+  [4;36;1mColaboration Create (0.4ms)[0m   [0;1mINSERT INTO "colaborations" ("name", "updated_at", "created_at") VALUES(NULL, '2009-06-06 01:49:05', '2009-06-06 01:49:05')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (1, 1, 1)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (1, 2, 2)[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('A Day In Life', '2009-06-06 01:49:05', 0, 1, '2009-06-06 01:49:05')[0m
+  [4;36;1mSong Create (0.4ms)[0m   [0;1mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('All You Need Is Love', '2009-06-06 01:49:05', 0, 1, '2009-06-06 01:49:05')[0m
+  [4;35;1mSong Create (0.8ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('Yesterday', '2009-06-06 01:49:05', 0, 2, '2009-06-06 01:49:05')[0m
+  [4;36;1mBeatle Create (0.4ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('John Lennon', '2009-06-06 01:49:05', '2009-06-06 01:49:05')[0m
+  [4;35;1mBeatle Create (0.3ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Paul McCartney', '2009-06-06 01:49:05', '2009-06-06 01:49:05')[0m
+  [4;36;1mBeatle Create (0.3ms)[0m   [0;1mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('George Harrison', '2009-06-06 01:49:05', '2009-06-06 01:49:05')[0m
+  [4;35;1mBeatle Create (0.4ms)[0m   [0mINSERT INTO "beatles" ("name", "updated_at", "created_at") VALUES('Ringo Starr', '2009-06-06 01:49:05', '2009-06-06 01:49:05')[0m
+  [4;36;1mColaboration Create (0.4ms)[0m   [0;1mINSERT INTO "colaborations" ("name", "updated_at", "created_at") VALUES(NULL, '2009-06-06 01:49:05', '2009-06-06 01:49:05')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (2, 5, 5)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "beatles_colaborations" ("colaboration_id", "beatle_id", "id") VALUES (2, 6, 6)[0m
+  [4;35;1mSong Create (0.4ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('A Day In Life', '2009-06-06 01:49:05', 0, 2, '2009-06-06 01:49:05')[0m
+  [4;36;1mSong Create (0.4ms)[0m   [0;1mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('All You Need Is Love', '2009-06-06 01:49:05', 0, 5, '2009-06-06 01:49:05')[0m
+  [4;35;1mSong Create (0.5ms)[0m   [0mINSERT INTO "songs" ("name", "updated_at", "author_type", "author_id", "created_at") VALUES('Yesterday', '2009-06-06 01:49:05', 0, 6, '2009-06-06 01:49:05')[0m

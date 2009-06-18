@@ -1,6 +1,29 @@
 = walruz-rails
 
-Description goes here.
+Simple but Powerful authorization features for Ruby on Rails.
+
+walruz-rails is a Walruz extension that allows you to integrate easily the Walruz authorization framework with Ruby on Rails.
+
+For more information about the functionality of walruz please check the "walruz webpage":#
+
+== FEATURES
+
+* It provides generators to setup easily your authorization policies
+* It provides filters for ActionController that enhances the invocations for verification of authorizations
+
+== INSTALL
+
+Execute the generator to enable walruz on your project: 
+
+  $ script/generate walruz
+
+After that don't forget to configure the `config/initializers/walruz_initializer.rb` file.
+
+Once you configure Walruz, you can start creating new policies just by executing the generator:
+
+$ script/generate walruz_policy ActorIsAdmin
+
+All policies will be stored on the `lib/walruz/policies` folder. To organize your policies you may use the `lib/walruz/policies` file.
 
 == Copyright
 
