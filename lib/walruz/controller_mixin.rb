@@ -37,13 +37,13 @@ module Walruz
         instance_variable_regexp = /^@/
         lambda do |controller|
           # we get the subject
-          subject = if subject.to_s =~ instance_variable_regexp
+          subject_instance = if subject.to_s =~ instance_variable_regexp
                       controller.instance_variable_get(subject)
                     else
                       controller.send(subject)
                     end
           
-          controller.send(:current_user).can!(action, subject)
+          controller.send(:current_user).can!(action, subject_instance)
         end
       end
       
