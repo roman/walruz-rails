@@ -9,13 +9,13 @@ module Walruz
       
       #
       # Returns a before filter that will check if the actor returned by the method `current_user` can execute the 
-      # given action on the subject.
+      # given action on the given subject.
       # 
       # Requirements:
       #   - The controller must have a method called `current_user` that returns the authenticated user
       #
       # Parameters:
-      #   - action: Symbol that represents the action wich will be executed on the subject
+      #   - action:  Symbol that represents the action wich will be executed on the subject
       #   - subject: Symbol that indicates an instance variable or method on the controller that
       #              returns the subject
       #
