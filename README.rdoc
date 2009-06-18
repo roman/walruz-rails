@@ -16,12 +16,13 @@ For more information about the functionality of walruz please check the "walruz 
 Execute the generator to enable walruz on your project: 
 
   $ script/generate walruz
+  
+This will generate the policies structure on the lib/ folder, and also it will add an initializer that setups your models for Walruz (config/initializers/walruz_intializer.rb).
 
-After that don't forget to configure the `config/initializers/walruz_initializer.rb` file.
+If you want to generate new policies, you may do so executing:
 
-Once you configure Walruz, you can start creating new policies just by executing the generator:
-
-$ script/generate walruz_policy ActorIsAdmin
+  $ script/generate walruz_policy policy_name
+  
 
 All policies will be stored on the `lib/walruz/policies` folder. To organize your policies you may use the `lib/walruz/policies` file.
 
