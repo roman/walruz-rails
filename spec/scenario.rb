@@ -147,7 +147,7 @@ end
 
 class SongsController < Application
   before_filter :assign_song
-  before_filter check_authorization!(:sing, :@song), :only => :sings
+  before_filter check_authorization!(:sing, :song), :only => :sings
   
   def sings
     text_to_render = '%s is singing %s' % [current_user.name,
