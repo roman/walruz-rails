@@ -33,6 +33,19 @@ describe Walruz::ControllerMixin do
       
     end
 
+    describe "when the specified user is not setted on the context" do
+      
+      before(:each) do
+        @controller.stub!(:assign_song)
+      end
+      
+      it "should raise an argument error" do
+        post(:sings, :song => 'Yesterday')
+        @response.body.should =~ /There is neither an instance variable/
+      end
+      
+    end
+
     describe "with current_user not authorized" do
       
       before(:each) do

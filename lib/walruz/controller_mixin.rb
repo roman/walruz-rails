@@ -36,13 +36,15 @@ module Walruz
       #   end
       #
       def check_authorization!(action, subject)
-        instance_variable_regexp = /^@/
         lambda do |controller|
           # we get the subject
           subject_instance = if controller.instance_variable_defined?("@%s" % subject)
                       controller.instance_variable_get("@%s" % subject)
-                    else
+                    elsif controller.respond_to?(subject)
                       controller.send(subject)
+                    else
+                      error_message = "There is neither an instance variable @%s nor a instance method %s on the %s instance context" % [subject, subject, controller.class.name]
+                      raise ArgumentError.new(error_message)
                     end
           
           controller.send(:current_user).can!(action, subject_instance)
