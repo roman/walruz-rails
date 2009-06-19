@@ -1,6 +1,6 @@
 Walruz.setup do |config|
   
-  
+  # All the models of ActiveRecord can behave as actors and subjects
   config.actors   = [ActiveRecord::Base]
   config.subjects = [ActiveRecord::Base]
   
@@ -10,10 +10,12 @@ Walruz.setup do |config|
     
     #
     # This method will be called when a user is not authorized. By
-    # default it renders a unauthorized template on the public directory
+    # default it renders an unauthorized template on the public directory
     # with a HTTP status 401 (not authorized)
+    # This method can be overwritted in childs of ActionController::Base
+    # to have a better handling of unauthorized exceptions
     def unauthorized(e)
-      render :template => 'public/unauthorized.html', :status => 401
+      render :file => "#{RAILS_ROOT}/public/unauthorized.html", :status => 401
     end
     
   end
