@@ -11,7 +11,7 @@ class WalruzGenerator < Rails::Generator::Base
       m.file('admin_policy_example.rb', 'lib/walruz/policies/admin_policy.rb')
       
       m.directory 'public'
-      m.file('unauthorized.html', 'public/unathorized.html')
+      m.file('unauthorized.html', 'public/unauthorized.html')
     end
   end
   

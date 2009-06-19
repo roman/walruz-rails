@@ -1,15 +1,12 @@
 Walruz.setup do |config|
   
-  #
-  # Specify which models behave like Actors in your authorization system
-  # config.actors = [User]
   
-  # Specify which models behave like Subjects (default: All of them)
+  config.actors   = [ActiveRecord::Base]
   config.subjects = [ActiveRecord::Base]
   
   ActionController::Base.class_eval do
     
-    rescue_from Walruz::NotAuthorized, :with => 'unathorized'
+    rescue_from Walruz::NotAuthorized, :with => :unauthorized
     
     #
     # This method will be called when a user is not authorized. By
