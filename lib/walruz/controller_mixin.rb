@@ -2,7 +2,20 @@ module Walruz
   module ControllerMixin
     
     def self.included(base)
+      base.send(:include, InstanceMethods)
       base.extend ClassMethods
+    end
+    
+    module InstanceMethods
+      
+      def set_policy_params!(params)
+        @_policy_params = params
+      end
+      
+      def policy_params
+        @_policy_params
+      end
+      
     end
     
     module ClassMethods
@@ -46,8 +59,8 @@ module Walruz
                       error_message = "There is neither an instance variable @%s nor a instance method %s on the %s instance context" % [subject, subject, controller.class.name]
                       raise ArgumentError.new(error_message)
                     end
-          
-          controller.send(:current_user).can!(action, subject_instance)
+          params = controller.send(:current_user).can!(action, subject_instance)
+          controller.set_policy_params!(params)
         end
       end
       
