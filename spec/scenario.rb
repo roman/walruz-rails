@@ -167,5 +167,81 @@ class SongsController < Application
   
 end
 
+##### Scenario for testing purposes of before_check_crud_authorizations_of
+
+class TruePolicy < Walruz::Policy
+  
+  def authorized?(actor, subject)
+    true
+  end
+  
+end
+
+class FalsePolicy < Walruz::Policy
+  
+  def authorized?(actor, subject)
+    false
+  end
+  
+end
+
+class Post
+  include Walruz::Subject
+  check_authorizations :create  => TruePolicy,
+                       :read    => TruePolicy,
+                       :update  => TruePolicy,
+                       :destroy => FalsePolicy
+end
+
+class PostsController < Application
+  
+  before_filter :get_post
+  before_check_crud_authorizations_on :post
+  
+  ['show', 'new', 'create', 'edit', 'update', 'destroy'].each do |action|
+    class_eval <<-CODE_RUBY
+      def #{action}
+        render :text => "I'm on action #{action}'"
+      end
+    CODE_RUBY
+  end
+  
+  def get_post
+    @post = Post.new
+  end
+  
+  def current_user
+    Beatle::RINGO
+  end
+  
+  
+end
+
+class OtherPostsController < Application
+  
+  before_filter :get_post
+  before_check_crud_authorizations_on :post
+  
+  ['show', 'new', 'create'].each do |action|
+    class_eval <<-CODE_RUBY
+      def #{action}
+        render :text => "I'm on action #{action}'"
+      end
+    CODE_RUBY
+  end
+  
+  def get_post
+    @post = Post.new
+  end
+  
+  def current_user
+    Beatle::RINGO
+  end
+  
+  
+end
+
+##### End of scenario
+
 ActionController::Routing::Routes.reload!
 ActionController::Routing::Routes.draw { |map| map.connect '/:controller/:action' }

@@ -69,4 +69,24 @@ describe Walruz::ControllerMixin do
     
   end
   
+  describe '#before_check_crud_authorizations_on' do
+    
+    before(:each) do
+      @controller = PostsController.new
+      @request    = ActionController::TestRequest.new
+      @response   = ActionController::TestResponse.new
+    end
+    
+    it "should generate before filters for each CRUD action" do
+      PostsController.before_filters.should have(5).filters # + 1 of the get_post
+      OtherPostsController.before_filters.should have(5).filters
+    end
+    
+    it "every action should work correctly" do
+      post :destroy, :method => '_delete'
+      @response.body.should =~ /Unauthorized/
+    end
+    
+  end
+  
 end

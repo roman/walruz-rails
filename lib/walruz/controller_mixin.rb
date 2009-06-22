@@ -92,16 +92,13 @@ module Walruz
       #
       def before_check_crud_authorizations_on(subject)
         [
-          [:create, [:new, :create]],
-          [:read, :show],
-          [:update, [:edit, :update]],
-          [:destroy, :destroy]
+          [:create, ['new', 'create']],
+          [:read, 'show'],
+          [:update, ['edit', 'update']],
+          [:destroy, 'destroy']
         ].each do |(actor_action, actions)|
-          actions = Array(actions)
-          actions.reject! { |action| !self.respond_to?(action) }
-          before_filter(check_authorization!(actor_action, subject), :only => actions) unless actions.empty?
+          before_filter(check_authorization!(actor_action, subject), :only => actions)
         end
-        
       end
       
     end
