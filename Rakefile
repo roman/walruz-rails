@@ -5,11 +5,13 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "walruz-rails"
-    gem.summary = %Q{Walruz integration with the rails framework}
-    gem.email = "romanandreg@gmail.com"
-    gem.homepage = "http://github.com/roman/walruz-rails"
+    gem.summary = %Q{Gem for easy integration between walruz and the Ruby on Rails framework}
+    gem.email = "roman@noomii.com"
+    gem.homepage = "http://github.com/noomii/walruz-rails"
     gem.authors = ["Roman Gonzalez"]
-
+    gem.rubyforge_project = "walruz-rails"
+    gem.files = FileList['lib/**/*.rb', 'rails_generators/**/*', 'examples/**/*']
+    gem.test_files = FileList['spec/**/*.rb']
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
 rescue LoadError

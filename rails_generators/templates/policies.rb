@@ -1,6 +1,10 @@
 module Policies
   extend Walruz::Utils
   
+  def self.policy(policy_label)
+    Walruz.policies[policy_label]
+  end
+  
   #
   # Add an autoload invocation to the policies you implement on the policies
   # directory. 
@@ -21,10 +25,10 @@ module Policies
   #
   #
   # If you want to use combined policies and give them a name you can do so
-  # pretty easily using the `orP`, `andP` or `notP` helpers
+  # pretty easily using the `any`, `all` or `negate` helpers
   #
-  # AdminOrFooPolicy = orP(AdminPolicy, FooPolicy)
-  # AdminAndNotFooPolicy = andP(AdminPolicy, notP(FooPolicy))
+  # AdminOrFooPolicy = any(AdminPolicy, FooPolicy)
+  # AdminAndNotFooPolicy = all(AdminPolicy, negate(FooPolicy))
   #
   
 end

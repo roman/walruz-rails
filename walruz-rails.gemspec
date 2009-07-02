@@ -3,19 +3,16 @@
 Gem::Specification.new do |s|
   s.name = %q{walruz-rails}
   s.version = "0.0.3"
-  s.add_dependency('walruz', '>= 0.0.3')
+
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Roman Gonzalez"]
-  s.date = %q{2009-06-18}
-  s.email = %q{romanandreg@noomii.com}
+  s.date = %q{2009-07-02}
+  s.email = %q{roman@noomii.com}
   s.extra_rdoc_files = [
     "LICENSE",
     "README.rdoc"
   ]
   s.files = [
-    "LICENSE",
-    "README.rdoc",
-    "Rakefile",
     "examples/rails/README",
     "examples/rails/Rakefile",
     "examples/rails/app/controllers/application_controller.rb",
@@ -89,7 +86,9 @@ Gem::Specification.new do |s|
     "examples/rails/spec/spec_helper.rb",
     "examples/rails/test/performance/browsing_test.rb",
     "examples/rails/test/test_helper.rb",
-    "rails_generators/templates/admin_policy_example.rb",
+    "lib/walruz/controller_mixin.rb",
+    "lib/walruz_rails.rb",
+    "rails_generators/templates/actor_is_subject_example.rb",
     "rails_generators/templates/policies.rb",
     "rails_generators/templates/policy.rb",
     "rails_generators/templates/policy_spec.rb",
@@ -97,52 +96,18 @@ Gem::Specification.new do |s|
     "rails_generators/templates/unauthorized.html",
     "rails_generators/templates/walruz_initializer.rb",
     "rails_generators/walruz_generator.rb",
-    "rails_generators/walruz_policy_generator.rb",
-    "lib/walruz/controller_mixin.rb",
-    "lib/walruz_rails.rb",
-    "spec/controller_mixin_spec.rb",
-    "spec/scenario.rb",
-    "spec/spec_helper.rb"
+    "rails_generators/walruz_policy_generator.rb"
   ]
   s.homepage = %q{http://github.com/noomii/walruz-rails}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
+  s.rubyforge_project = %q{walruz-rails}
   s.rubygems_version = %q{1.3.3}
-  s.summary = %q{Walruz integration for Ruby On Rails}
+  s.summary = %q{Gem for easy integration between walruz and the Ruby on Rails framework}
   s.test_files = [
     "spec/controller_mixin_spec.rb",
     "spec/scenario.rb",
-    "spec/spec_helper.rb",
-    "examples/rails/app/controllers/application_controller.rb",
-    "examples/rails/app/helpers/application_helper.rb",
-    "examples/rails/app/models/beatle.rb",
-    "examples/rails/app/models/colaboration.rb",
-    "examples/rails/app/models/song.rb",
-    "examples/rails/config/boot.rb",
-    "examples/rails/config/environment.rb",
-    "examples/rails/config/environments/development.rb",
-    "examples/rails/config/environments/production.rb",
-    "examples/rails/config/environments/test.rb",
-    "examples/rails/config/initializers/backtrace_silencers.rb",
-    "examples/rails/config/initializers/inflections.rb",
-    "examples/rails/config/initializers/mime_types.rb",
-    "examples/rails/config/initializers/new_rails_defaults.rb",
-    "examples/rails/config/initializers/session_store.rb",
-    "examples/rails/config/initializers/walruz_initializer.rb",
-    "examples/rails/config/routes.rb",
-    "examples/rails/db/migrate/20090604201506_create_beatles.rb",
-    "examples/rails/db/migrate/20090604201512_create_songs.rb",
-    "examples/rails/db/migrate/20090604201527_create_colaborations.rb",
-    "examples/rails/db/schema.rb",
-    "examples/rails/lib/walruz/policies/author_policy.rb",
-    "examples/rails/lib/walruz/policies/colaboration_policy.rb",
-    "examples/rails/lib/walruz/policies.rb",
-    "examples/rails/spec/models/beatle_spec.rb",
-    "examples/rails/spec/models/colaboration_spec.rb",
-    "examples/rails/spec/models/song_spec.rb",
-    "examples/rails/spec/spec_helper.rb",
-    "examples/rails/test/performance/browsing_test.rb",
-    "examples/rails/test/test_helper.rb"
+    "spec/spec_helper.rb"
   ]
 
   if s.respond_to? :specification_version then

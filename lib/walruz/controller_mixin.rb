@@ -59,7 +59,7 @@ module Walruz
                       error_message = "There is neither an instance variable @%s nor a instance method %s on the %s instance context" % [subject, subject, controller.class.name]
                       raise ArgumentError.new(error_message)
                     end
-          params = controller.send(:current_user).can!(action, subject_instance)
+          params = controller.send(:current_user).authorize(action, subject_instance)
           controller.set_policy_params!(params)
         end
       end

@@ -4,12 +4,35 @@ Simple but Powerful authorization features for Ruby on Rails.
 
 walruz-rails is a Walruz extension that allows you to integrate easily the Walruz authorization framework with Ruby on Rails.
 
-For more information about the functionality of walruz please check the "walruz webpage":#
+For more information about the functionality of walruz please check the walruz webpage (http://walruz.rubyforge.org)
 
 == FEATURES
 
 * It provides generators to setup easily your authorization policies
 * It provides filters for ActionController that enhances the invocations for verification of authorizations
+
+
+== HOW TO USE THE FILTERS
+
+walruz-rails provides the check_authorization method, this method will generate a before_filter for the parameters specified to this method:
+
+Example:
+  
+  class UsersController < ApplicationController
+    
+    before_filter :get_user, :except => :index
+    
+    before_filter check_authorization(:create, :user), :only => [:new, :create]
+    before_filter check_authorization(:read, :user), :only => :show
+    before_filter check_authorization(:update, :user), :only => [:edit, :update]
+    before_filter check_authorization(:destroy, :user), :only => [:delete, :destroy]
+  end
+  
+All this invocations will get translated to:
+
+  current_user.authorize(action, subject)
+
+The result of this invocation will be on a controller method called `policy_params`.
 
 == INSTALL
 
