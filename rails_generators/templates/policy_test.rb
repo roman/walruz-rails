@@ -6,17 +6,15 @@
 class Policies::<%= class_name %>Test < Test::Unit
   
   def setup
-    @policy = Policies::<%= class_name %>.new
+    # setup associations btw actor and subject
   end
-  
+
   def test_return_true_with_valid_association_of_actor_and_subject
-    # setup valid association btw actor and subject
-    # assert !@policy.safe_authorized?(actor, subject)[0]
+    # assert Walruz.satisfies?(actor, :<%= file_name %>, subject)
   end
   
   def test_return_false_with_invalid_association_of_actor_and_subject
-    # setup invalid association btw actor and subject
-    # assert @policy.safe_authorized?(actor, subject)[0]
+    # assert !Walruz.satisfies?(actor, :<%= file_name %>, subject) 
   end
   
 end

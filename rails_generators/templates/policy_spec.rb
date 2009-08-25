@@ -5,10 +5,6 @@ require File.dirname(__FILE__) + '/../spec_helper'
 
 describe Policies::<%= class_name %> do
   
-  before(:each) do
-    @policy = Policies::<%= class_name %>.new
-  end
-  
   describe "with valid actor and subject" do
     
     before(:each) do
@@ -17,7 +13,7 @@ describe Policies::<%= class_name %> do
     
     it "should return true" do
       pending
-      # @policy.safe_authorized?(@actor, @subject)[0].should be_true
+      # Walruz.satisfies?(@actor, :<%= file_name %>, @subject).should be_true
     end
     
   end
@@ -30,7 +26,7 @@ describe Policies::<%= class_name %> do
     
     it "should return false" do
       pending
-      # @policy.safe_authorized?(@actor, @subject)[0].should be_false
+      # Walruz.satisfies?(@actor, :<%= file_name %>, @subject).should be_false
     end
     
   end

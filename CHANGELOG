@@ -1,0 +1,5 @@
+* 0.0.9 (Aug 24, 2009) The Rise Of The Generators
+* Added a task to the generation of the setup Walruz that runs only the
+policies specs
+* Replacing the test and spec generated files with new API from Walruz 0.0.9
+* Replacing invocations made to Walruz::Manager to Walruz
