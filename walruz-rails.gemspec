@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{walruz-rails}
-  s.version = "0.0.8"
+  s.version = "0.0.9"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Roman Gonzalez"]
-  s.date = %q{2009-08-21}
+  s.date = %q{2009-08-25}
   s.email = %q{roman@noomii.com}
   s.extra_rdoc_files = [
     "LICENSE",
@@ -96,6 +96,8 @@ Gem::Specification.new do |s|
      "rails_generators/templates/policy.rb",
      "rails_generators/templates/policy_spec.rb",
      "rails_generators/templates/policy_test.rb",
+     "rails_generators/templates/spec_task.rake",
+     "rails_generators/templates/test_task.rake",
      "rails_generators/templates/unauthorized.html",
      "rails_generators/templates/walruz_initializer.rb",
      "rails_generators/walruz_generator.rb",
