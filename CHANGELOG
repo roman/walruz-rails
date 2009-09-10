@@ -1,3 +1,8 @@
+* 0.0.10 (Sep 10, 2009) The policy filter
+* Adding the check_policy! method, this will return a filter that will check
+if the current_user is satisfying a given policy, subject in this action is
+optional
+
 * 0.0.9 (Aug 24, 2009) The Rise Of The Generators
 * Added a task to the generation of the setup Walruz that runs only the
 policies specs
