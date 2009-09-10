@@ -66,6 +66,22 @@ module Walruz
           controller.set_policy_params!(params)
         end
       end
+
+      # TODO: Documentation
+      def check_policy!(policy_label, subject = nil)
+        lambda do |controller|
+          subject_instance = nil
+          if subject
+            subject_instance = if controller.instance_variable_defined?("@%s" % subject)
+              controller.instance_variable_get("@%s" % subject)
+            elsif controller.respond_to?(:"#{subject}")
+              controller.send(:"#{subject}")
+            end
+          end
+          params = Walruz.satisfies!(controller.send(:current_user), policy_label, subject_instance)
+          controller.set_policy_params!(params)
+        end
+      end
       
       
       #

@@ -20,6 +20,84 @@ describe Walruz::ControllerMixin do
     @controller.should respond_to(:policy_params)
   end
   
+  describe '#check_satisfies_policy!' do
+    
+    describe "with a subject" do
+
+      before(:each) do
+        @subject = Beatle::JOHN
+      end
+      
+      describe "and a current_user that satisfy the policy" do
+
+        before(:each) do
+          @controller.stub!(:current_user).and_return(@subject)
+          post(:is, :singer => 'John')
+        end
+
+        it "should execute the action" do
+          @response.body.should == 'John is really John'
+        end
+
+        it "should return a policy param" do
+          @controller.policy_params.should_not be_nil
+          @controller.policy_params[:actor_is_subject?].should be_true
+        end
+
+      end
+
+      describe "and a current_user that don't satisfy the policy" do
+
+        before(:each) do
+          @controller.stub!(:current_user).and_return(Beatle::RINGO)
+          post(:is, :singer => 'John')
+        end
+        
+        it "should restrict access" do
+          @response.body.should == 'Unauthorized'
+        end
+
+      end
+
+    end
+
+    describe "without a subject" do
+
+      describe "but with a current_user that satisfies the policy" do
+
+        before(:each) do
+          @controller.stub!(:current_user).and_return(Beatle::JOHN)
+          post(:hi_to_john)
+        end
+        
+        it "should execute the action" do
+          @response.body.should == 'Hey John, I thought you were dead already!'  
+        end
+
+        it "should return a policy param" do
+          @controller.policy_params.should_not be_nil
+          @controller.policy_params[:is_john_lennon?].should be_true
+        end
+
+      end
+
+      describe "but with a current_user that doesn't satisfy the policy" do
+
+        before(:each) do
+          @controller.stub!(:current_user).and_return(Beatle::RINGO)
+          post(:hi_to_john)
+        end
+
+        it "should restrict access" do
+          @response.body.should == 'Unauthorized'
+        end
+
+      end
+
+    end
+
+  end
+
   describe '#check_authorization!' do
     
     describe "with current_user authorized" do

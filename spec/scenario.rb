@@ -55,25 +55,22 @@ class Colaboration
   JOHN_GEORGE = self.new(Beatle::PAUL, Beatle::GEORGE)
 end
 
+class IsJohnLennon < Walruz::Policy
+
+  def authorized?(actor, _)
+    actor == Beatle::JOHN
+  end
+
+end
+
 class SubjectIsActorPolicy < Walruz::Policy
+  set_policy_label :actor_is_subject
   
   def authorized?(actor, subject)
     actor == subject
   end
   
 end
-
-# class AuthorPolicy < Walruz::Policy
-#   
-#   def authorized?(beatle, song)
-#     if song.author == beatle
-#       [true, { :owner => beatle }]
-#     else
-#       false
-#     end
-#   end
-#   
-# end
 
 AuthorPolicy = SubjectIsActorPolicy.for_subject(:author) do |authorized, params, actor, subject|
   params.merge!(:owner => actor) if authorized
@@ -146,13 +143,28 @@ class Application < ActionController::Base
 end
 
 class SongsController < Application
-  before_filter :assign_song
+  
+  before_filter :assign_song, :only => :sings
   before_filter check_authorization!(:sing, :song), :only => :sings
+
+  before_filter :assign_singer, :only => :is
+  before_filter check_policy!(:actor_is_subject, :singer), :only => :is
+
+  before_filter check_policy!(:is_john_lennon), :only => :hi_to_john
   
   def sings
     text_to_render = '%s is singing %s' % [current_user.name,
                                           @song.name]
     render :text => text_to_render
+  end
+
+  def is
+    text_to_render = '%s is really %s' % [current_user.name, @singer.name]
+    render :text => text_to_render
+  end
+
+  def hi_to_john
+    render :text => 'Hey John, I thought you were dead already!'
   end
   
   protected
@@ -163,6 +175,14 @@ class SongsController < Application
             else
               nil
             end
+  end
+
+  def assign_singer
+    @singer = if params[:singer] == 'John'
+      Beatle::JOHN
+    else
+      nil
+    end
   end
   
 end
